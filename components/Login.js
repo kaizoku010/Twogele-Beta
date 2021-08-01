@@ -7,6 +7,7 @@ function Login() {
         <div className="grid place-items-center">
             <Image src={Logo}
                 height={100}
+                alt=""
                 width={100}
             objectFit="contain"/>
             <h1 onClick={ signIn } className="p-5 m-5 bg-blue-500 cursor-pointer rounded-full

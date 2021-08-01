@@ -35,6 +35,7 @@ function Header() {
             <div className="flex items-center">
                 <Image src={Logo} width={40}
                     height={40}
+                    alt=""
                     layout="fixed" />
                 <div className="flex ml-2 item-center bg-gray-100 p-2 rounded-full">
                     <SearchIcon
@@ -62,6 +63,7 @@ function Header() {
                     onClick={signOut}
                     className="rounded-full cursor-pointer"
                     src={session.user.image}
+                    alt=""
                     width="40"
                     height="40"
                     layout="fixed"/>

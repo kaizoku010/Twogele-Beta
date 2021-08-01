@@ -6,12 +6,13 @@ function Contact({ name, contactImage }) {
         <div className="flex items-center space-x-3 mb-2
         relative hover:bg-gray-200 cursor-pointer" >
             {contactImage && (
-                <img
+                <Image
                     src={contactImage}
                     className="rounded-full"
                     objectFit="cover"
                     width={50}
                     height={50}
+                    alt=""
                     layout="fixed" />
             )}
             <p> {name}</p>

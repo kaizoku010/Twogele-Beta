@@ -1,15 +1,20 @@
-module.exports = {
+const withPlugins = require('next-compose-plugins');
+const optimizedImages = require('next-optimized-images');
 
+const withOptimizedImages = require('next-optimized-images');
+
+module.exports = withOptimizedImages({
+  /* config for next-optimized-images */
   images: {
     domains: [
       "platform-lookaside.fbsbx.com",
-      "https://links.papareact.com/zof",
-      "https://links.papareact.com/z4n",
-      "https://links.papareact.com/xql",
-      "https://links.papareact.com/zvy",
-    "https://drive.google.com/file/d/1222GB8vxEM547dpM7MyChoE_0xxsD1Mp",
+      "images.pexels.com",
+      "links.papareact.com",
       "firebasestorage.googleapis.com"
-    ]
+    ],
+    disableStaticImages: true,
+    // loader: 'imgix'
   }
+  // your config for other plugins or the general next.js here...
+});
 
-};

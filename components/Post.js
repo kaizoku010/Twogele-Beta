@@ -7,8 +7,9 @@ function Post({ name, message, email, image, timestamp, postImage }) {
             <div className="p-5 bg-white mt-5 rounded-t-2xl shadow-sm">
                 <div className="flex items-center space-x-2">
                     {/* img */}
-                    <img className="rounded-full "
+                    <Image className="rounded-full "
                         src={image}
+                        alt=""
                         width={40}
                         height={40} />
                     {/* date */}
@@ -33,7 +34,7 @@ function Post({ name, message, email, image, timestamp, postImage }) {
             {
                 postImage && (
                     <div className="relative h-56 md:h-96 bg-white">
-                        <Image src={ postImage} objectFit="cover" layout="fill"/>
+                        <Image src={ postImage} objectFit="cover" alt="" layout="fill"/>
                     </div>
             )
             }

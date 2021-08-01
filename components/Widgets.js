@@ -1,9 +1,9 @@
 import { SearchIcon } from "@heroicons/react/outline";
 import { DotsHorizontalIcon, VideoCameraIcon } from "@heroicons/react/solid";
 import Contact from "./Contact";
-import kai from "../images/kaizoku.jpg";
+
 const contacts = [
-    { contactImage: "https://th.bing.com/th/id/OIP.kfn-pmpkJcq72kfnHeV59AHaFj?pid=ImgDet&rs=1", name: "Elon Musk" },
+    { contactImage: "https://images.pexels.com/photos/7704220/pexels-photo-7704220.jpeg?cs=srgb&dl=pexels-sinitta-leunen-7704220.jpg&fm=jpg", name: "Jessy Molla" },
     { contactImage: "https://links.papareact.com/xql", name: "Jeff Bezos" },
     { contactImage:"https://links.papareact.com/zvy", name :"Bill Gates"}
 ]

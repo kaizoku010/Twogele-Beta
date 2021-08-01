@@ -7,7 +7,7 @@ import {
 } from "@heroicons/react/solid";
 import SidebarRow from "./SidebarRow";
 
-function sidebar() {
+function Sidebar() {
     const [session, loading] = useSession()
     
     return (
@@ -26,4 +26,4 @@ function sidebar() {
     )
 }
 
-export default sidebar
+export default Sidebar
