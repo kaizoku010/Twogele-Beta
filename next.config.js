@@ -10,6 +10,7 @@ module.exports = withOptimizedImages({
       "platform-lookaside.fbsbx.com",
       "images.pexels.com",
       "links.papareact.com",
+      "avatars.githubusercontent.com",
       "firebasestorage.googleapis.com"
     ],
     disableStaticImages: true,
